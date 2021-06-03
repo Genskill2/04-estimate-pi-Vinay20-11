@@ -43,7 +43,7 @@ float mc_pi(int darts)
 int count=0;
 float x,y;
 float r;
-for(int i=0;i<darts;++i)
+for(int i=0;i<darts;i++)
 {
 x=frandom();
 y=frandom();
